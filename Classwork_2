@@ -5,7 +5,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    
-	 //დაპროგრამების ენების სახელები
+	 //1 დაპროგრამების ენების სახელები
       System.out.println("C++");
       System.out.println("C#");
       System.out.println("java");
@@ -14,7 +14,7 @@ public class Main
       System.out.println("JavaScropt");
       System.out.println("ActionScript");
       
-     //განაყოფი,ნაშთი
+     //2 განაყოფი,ნაშთი
      System.out.println("please, enter a and b");
      Scanner  first_input= new Scanner(System.in);
       int a = first_input.nextInt();
@@ -22,7 +22,7 @@ public class Main
       System.out.println("a/b=" + a/b);
       System.out.println("b%a="+ b%a);
       
-     //ჯამი, ნამრავლი
+     //3 ჯამი, ნამრავლი
      System.out.println("please, enter a, b and c");
      Scanner second_input = new Scanner(System.in);
      int a = second_input.nextInt();
@@ -31,7 +31,7 @@ public class Main
      System.out.println("a+b+c=" + (a+b+c));
      System.out.println("a*b*c=" + a*b*c);
      
-      //სამნიშნა რიცხვის ციფრები
+      //4 სამნიშნა რიცხვის ციფრები
       System.out.println("please, enter number");
       Scanner third_input = new Scanner(System.in);
       String num = third_input.nextLine();
@@ -40,7 +40,7 @@ public class Main
             System.out.println(num.charAt(i));
          }
          
-      //რიცხვის ციფრთა ჯამი 
+      //5,6 რიცხვის ციფრთა ჯამი 
        int  b, sum = 0;
         System.out.println("please, enter the number:");
         Scanner fourth_input = new Scanner(System.in);
@@ -53,7 +53,7 @@ public class Main
         }
         System.out.println("Sum of Digits:"+ sum);  
 
-//ევკლიდეს ალგორითმი (უსგ)
+//7 ევკლიდეს ალგორითმი (უსგ)
 	public static int euclid(int a, int b) {
 		if (a == 0 || b == 0) {
 			return 1;
@@ -76,7 +76,7 @@ public class Main
        int b = fith_input.nextInt();
 		 System.out.println("result: " + euclid(a,b));
 		
-//M-დან N-მდე
+//8 M-დან N-მდე
         System.out.println("please, enter M and N");
         Scanner sixth_input = new Scanner(System.in);
         int M = sixth_input.nextInt();
@@ -85,9 +85,9 @@ public class Main
             System.out.print(i + " ");
         }
         
-  //
+  //9 
   
-  //მასივში შემთხვევითი რიცხვები
+  //11მასივში შემთხვევითი რიცხვები
        int[] my_arr = new int[8];
        for (int i = 0; i < 8; i++) {
             my_arr[i] = (int) (Math.random() * 1999);
